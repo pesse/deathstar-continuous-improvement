@@ -20,7 +20,8 @@ create or replace package body ut_sith_persons as
       values ('Darth Sam', 0);
 
     -- Assert
-    select * into l_row from sith_persons where name = 'Darth Sam';
+    select * into l_row from sith_persons
+      where name = 'Darth Sam';
     ut.expect(l_row.id).to_be_greater_than(0);
     ut.expect(l_row.alive).to_equal(0);
   end;
