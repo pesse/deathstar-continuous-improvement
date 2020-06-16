@@ -4,7 +4,7 @@ create or replace package body alignment_detector as
     return varchar2
   as
   begin
-    if i_name like 'Darth%' then
+    if i_name like 'Darth%' or sith_archive.contains_name(i_name) then
       return 'dark';
     else
       return 'light';
