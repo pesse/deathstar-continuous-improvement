@@ -1,6 +1,6 @@
 create or replace view sith_persons as
   select
     id,
-    name,
+    prename || ' ' || surname as name,
     alive
     from sith_characters_t;
