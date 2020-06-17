@@ -3,9 +3,11 @@ create or replace trigger sith_persons_trg_save
   begin
     if inserting then
       insert into sith_characters_t (alive, prename, surname)
-        values ( :new.alive,
+        values (
+          :new.alive,
           trim(substr(:new.name, 1, instr(:new.name, ' '))),
-          trim(substr(:new.name, instr(:new.name, ' '))));
+          trim(substr(:new.name, instr(:new.name, ' ')))
+        );
     elsif updating then
       update sith_characters_t set
         alive = :new.alive,
