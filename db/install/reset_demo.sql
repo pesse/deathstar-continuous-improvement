@@ -1,7 +1,10 @@
+@../Schema/utils/utl_db_object.pks
+@../Schema/utils/utl_db_object.pkb
+
 call utl_db_object.drop_if_exists('flyway_schema_history');
 call utl_db_object.drop_if_exists('SITH_PERSONS');
 call utl_db_object.drop_if_exists('SITH_CHARACTERS_T');
-call utl_db_object.drop_if_exists('UT_SITH_PERSONS');
+call utl_db_object.drop_if_exists('UT_SITH_PERSONS', 'PACKAGE');
 call utl_db_object.drop_if_exists('ALIGNMENT_DETECTOR', 'PACKAGE');
 
 create table sith_persons (
@@ -21,7 +24,5 @@ commit;
 
 @../Schema/utils/alignment_detector.pks
 @../Schema/utils/alignment_detector.pkb
-@../Schema/utils/utl_db_object.pks
-@../Schema/utils/utl_db_object.pkb
 
 exit
