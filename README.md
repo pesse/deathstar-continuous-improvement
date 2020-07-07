@@ -15,3 +15,5 @@ Example Repo for https://2020.accento.dev/talks/continuous-improvement-database/
 
 [utPLSQL](http://utplsql.org)  
 [tSQLt](https://tsqlt.org/)  
+[flyway](https://flywaydb.org/)  
+[LiquiBase](https://www.liquibase.org/)  
