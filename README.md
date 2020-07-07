@@ -1,4 +1,6 @@
 # Continuous Improvement of the Death Star
+![Announcement](img/AccentoDev_2020_Improvement_DeathStar_announcement.png)  
+
 Example Repo for https://2020.accento.dev/talks/continuous-improvement-database/
 
 # Resources
