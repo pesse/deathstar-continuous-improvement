@@ -2,10 +2,7 @@ create or replace package ut_sith_persons as
   -- %suite
 
   -- %test
-  procedure select_from;
-
-  -- %test
-  procedure insert_into;
+  procedure insert_select_sith_persons;
 
 end;
 /
