@@ -1,7 +1,9 @@
 # Continuous Improvement of the Death Star
 ![Announcement](img/AccentoDev_2020_Improvement_DeathStar_announcement.png)  
 
-Example Repo for https://2020.accento.dev/talks/continuous-improvement-database/
+Example Repo for the following talks
+- https://2020.accento.dev/talks/continuous-improvement-database/
+- https://www.ittage.informatik-aktuell.de/programm/2020/continuous-improvement-auf-der-todesstern-datenbank.html
 
 # Resources
 [Evolutionary Database Design](https://www.martinfowler.com/articles/evodb.html) by Martin Fowler  
