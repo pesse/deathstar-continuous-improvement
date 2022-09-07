@@ -3,6 +3,10 @@
 
 Example Repo for my talk about modern development techniques used in a relational database.
 
+## Slides
+
+for the different events where I did this talk can be found in [slides/](slides/)
+
 ## Talk Abstract
 
 “Database development is outdated, inflexible and boring” - this opinion is not only held by the Sith Lord in charge of the Deathstar development. On the other hand, the amount of data we have to deal with has increased enormously and modern SQL is constantly among the top requested development skills.
